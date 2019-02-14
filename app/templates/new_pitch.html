@@ -1,0 +1,12 @@
+{% extends 'base.html' %}
+
+{% import 'bootstrap/wtf.html' as wtf %}
+
+{% block content%}
+    <div class="jumborton">
+        <h1>CREATE A NEW PITCH!</h1>
+        {{wtf.quick_form(new_pitch_form)}}
+
+</div>
+
+{% endblock %}
